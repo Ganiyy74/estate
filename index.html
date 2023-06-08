@@ -470,6 +470,13 @@
         </div>
 
         <div class="row">
+            <script type="text/javascript">
+                var submitted = false;
+             </script>
+             <iframe name="hidden_iframe" 
+             id="hidden_iframe"
+             style="display: none"
+             onload="if(submitted){window.location='https://estate102.netlify.app/'}"></iframe>
             <form action="">
                 <div class="inputBox">
                     <input type="text" placeholder="name">
@@ -488,6 +495,17 @@
             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
+       
+        <!-- <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdMCa2Mj2KjLN7akop-Ffy2gID5528LxWzwh6pNs6NKat6F1A/formResponse"
+        method="POST"
+        target="hidden_iframe"
+        onsubmit="submitted=true">
+            <input type="text" placeholder="your name" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="text" placeholder="subject" class="box">
+            <textarea name="" class="box" placeholder="your message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form> -->
     </section>
     <!--contact section ends-->
     <!--footer section start-->
